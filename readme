@@ -1,0 +1,8 @@
+install forms
+pip install flask-wtf
+
+create SECRET_KEY
+(in the python shell)
+import secrets
+secrets.token_hex(16)
+(copy output and add to blog.py)
